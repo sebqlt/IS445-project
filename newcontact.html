@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
     <title>Document</title>
-</head>
 <body>
-    
+   <header>
+        <a href="./index.html"><p><b>Contact management</b></p></a>
+        <div class="buttons">
+            <a href="./index.html"><button class="headbutton">Index</button></a>
+            <a href="./newcontact.html"><button class="headbutton">New</button></a>
+        </div>
+   </header> 
+   <div class="content">
+        <div class="divheader">New Contact</div>
+        <div class="divbody">
+            <form id="frm1">
+                Name: <br><input type="text" name="fname"><br>
+                Email: <br><input type="text" name="lname"><br>
+                Phone: <br><input type="text" name="lname"><br><br>
+                <p align="right"><button class="submitbutton"onclick="myFunction()">Submit</button></p>
+              </form>
+
+            
+        </div>
+   </div>
 </body>
 </html>

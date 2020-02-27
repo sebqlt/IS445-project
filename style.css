@@ -1,3 +1,85 @@
 header{
-    background-color: skyblue;
+    background-color: #047cfc;
+    padding: 5px;
+    color:white;
+    display: flex;
+
 }
+header a {
+    text-decoration: none;
+    color:white;
+}
+
+.buttons{
+    text-align: center;
+    margin:auto;
+}
+.headbutton{
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 5px;;
+    margin:5px;
+    padding:10px;
+    color: white;
+}
+.deletebutton{
+    background-color: transparent;
+    border:1px solid #e26976;
+    border-radius: 5px;;
+    margin:5px;
+    padding:10px;
+    color: #e26976;
+}
+.editbutton{
+    background-color: transparent;
+    border:1px solid #fccb40;
+    border-radius: 5px;;
+    margin:5px;
+    padding:10px;
+    color: #fccb40;;
+}
+.detailbutton{
+    background-color: transparent;
+    border:1px solid #047cfc;
+    border-radius: 5px;;
+    margin:5px;
+    padding:10px;
+    color: #047cfc;
+}
+.submitbutton{
+    background-color: #7ac483;
+    border:1px solid #7ac483;
+    border-radius: 5px;;
+    margin:5px;
+    padding:10px;
+    color:white;
+    text-align: right;
+}
+
+.content{
+justify-content: center;
+margin: auto;
+width:50%;
+margin-top: 50px;
+}
+
+td{
+    border-top: 1px solid grey;
+}
+
+.divfooter{
+    text-align: right;
+    background-color: rgb(240,240,240);
+    padding: 10px;
+}
+.divheader{
+    background-color: rgb(240,240,240);
+    padding: 10px;
+}
+
+/*
+blue : #047cfc
+red : #e26976
+yellow : #fccb40
+green : #7ac483
+*/
